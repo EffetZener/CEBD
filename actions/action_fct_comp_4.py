@@ -22,7 +22,9 @@ class AppFctComp4(QDialog):
         display.refreshLabel(self.ui.label_fct_comp_4, "")
             
         try:
+            self.refreshCatList_2() 
             cursor = self.data.cursor()
+            
             result = cursor.execute(
                 "SELECT numSp, nomSp, prenomSp, categorieSp, dateNaisSp FROM LesSportifs_base JOIN LesEquipiers USING (numSp) WHERE pays = ? AND numEq=?",
                 [self.ui.comboBox_fct_4_pays.currentText(),self.ui.comboBox_fct_4_Eq.currentText()]
