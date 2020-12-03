@@ -15,19 +15,6 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QLabel" name="label_3">
-     <property name="text">
-      <string>Travail à réaliser : améliorez l'interface de sorte que le pays ne puisse être choisi que parmi ceux présents dans la base. Le comboBox équipe  ne doit proposer que des valeurs possibles pour le pays actuellement choisi.</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="wordWrap">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item alignment="Qt::AlignHCenter">
       <widget class="QLabel" name="label">
@@ -121,7 +108,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>789</x>
-     <y>64</y>
+     <y>32</y>
     </hint>
     <hint type="destinationlabel">
      <x>91</x>
@@ -133,15 +120,15 @@
    <sender>comboBox_fct_4_pays</sender>
    <signal>currentTextChanged(QString)</signal>
    <receiver>fct_comp_4</receiver>
-   <slot>ok()</slot>
+   <slot>refreshBox()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>279</x>
-     <y>55</y>
+     <x>239</x>
+     <y>19</y>
     </hint>
     <hint type="destinationlabel">
-     <x>352</x>
-     <y>54</y>
+     <x>444</x>
+     <y>17</y>
     </hint>
    </hints>
   </connection>
@@ -149,5 +136,6 @@
  <slots>
   <slot>refreshResult()</slot>
   <slot>ok()</slot>
+  <slot>refreshBox()</slot>
  </slots>
 </ui>

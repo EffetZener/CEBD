@@ -6,19 +6,25 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>744</width>
-    <height>917</height>
+    <width>767</width>
+    <height>920</height>
    </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
   </property>
   <property name="windowTitle">
    <string>Projet Jeux Olympiques</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>0</y>
+      <x>34</x>
+      <y>109</y>
       <width>685</width>
       <height>16</height>
      </rect>
@@ -30,8 +36,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>10</y>
+      <x>6</x>
+      <y>90</y>
       <width>691</width>
       <height>31</height>
      </rect>
@@ -52,8 +58,8 @@
    <widget class="Line" name="line_2">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>140</y>
+      <x>8</x>
+      <y>220</y>
       <width>685</width>
       <height>16</height>
      </rect>
@@ -65,8 +71,8 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>7</x>
-      <y>150</y>
+      <x>3</x>
+      <y>230</y>
       <width>691</width>
       <height>31</height>
      </rect>
@@ -87,8 +93,8 @@
    <widget class="Line" name="line_3">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>260</y>
+      <x>8</x>
+      <y>340</y>
       <width>685</width>
       <height>16</height>
      </rect>
@@ -100,8 +106,8 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>7</x>
-      <y>269</y>
+      <x>3</x>
+      <y>349</y>
       <width>691</width>
       <height>31</height>
      </rect>
@@ -122,8 +128,8 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>350</y>
+      <x>8</x>
+      <y>430</y>
       <width>685</width>
       <height>31</height>
      </rect>
@@ -147,8 +153,8 @@
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>56</x>
-      <y>390</y>
+      <x>52</x>
+      <y>470</y>
       <width>611</width>
       <height>51</height>
      </rect>
@@ -172,8 +178,8 @@
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>450</y>
+      <x>8</x>
+      <y>530</y>
       <width>685</width>
       <height>31</height>
      </rect>
@@ -197,8 +203,8 @@
    <widget class="Line" name="line_4">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>612</y>
+      <x>8</x>
+      <y>692</y>
       <width>685</width>
       <height>16</height>
      </rect>
@@ -210,8 +216,8 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>621</y>
+      <x>10</x>
+      <y>701</y>
       <width>691</width>
       <height>31</height>
      </rect>
@@ -232,8 +238,8 @@
    <widget class="Line" name="line_5">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>720</y>
+      <x>8</x>
+      <y>800</y>
       <width>685</width>
       <height>16</height>
      </rect>
@@ -245,8 +251,8 @@
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>735</y>
+      <x>8</x>
+      <y>815</y>
       <width>691</width>
       <height>21</height>
      </rect>
@@ -267,8 +273,8 @@
    <widget class="Line" name="line_6">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>830</y>
+      <x>8</x>
+      <y>69</y>
       <width>685</width>
       <height>16</height>
      </rect>
@@ -280,8 +286,8 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>120</y>
+      <x>6</x>
+      <y>200</y>
       <width>689</width>
       <height>19</height>
      </rect>
@@ -296,8 +302,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>40</y>
+      <x>8</x>
+      <y>120</y>
       <width>685</width>
       <height>32</height>
      </rect>
@@ -381,8 +387,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>80</y>
+      <x>8</x>
+      <y>160</y>
       <width>685</width>
       <height>32</height>
      </rect>
@@ -426,8 +432,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>180</y>
+      <x>8</x>
+      <y>260</y>
       <width>685</width>
       <height>32</height>
      </rect>
@@ -471,8 +477,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>220</y>
+      <x>8</x>
+      <y>300</y>
       <width>685</width>
       <height>32</height>
      </rect>
@@ -516,8 +522,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>304</y>
+      <x>8</x>
+      <y>384</y>
       <width>685</width>
       <height>32</height>
      </rect>
@@ -561,8 +567,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>489</y>
+      <x>8</x>
+      <y>569</y>
       <width>685</width>
       <height>32</height>
      </rect>
@@ -606,8 +612,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>530</y>
+      <x>8</x>
+      <y>610</y>
       <width>685</width>
       <height>32</height>
      </rect>
@@ -651,8 +657,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>570</y>
+      <x>8</x>
+      <y>650</y>
       <width>685</width>
       <height>32</height>
      </rect>
@@ -696,8 +702,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>650</y>
+      <x>10</x>
+      <y>730</y>
       <width>685</width>
       <height>32</height>
      </rect>
@@ -741,8 +747,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>690</y>
+      <x>10</x>
+      <y>770</y>
       <width>685</width>
       <height>32</height>
      </rect>
@@ -786,8 +792,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>760</y>
+      <x>6</x>
+      <y>-1</y>
       <width>685</width>
       <height>32</height>
      </rect>
@@ -831,9 +837,9 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>800</y>
-      <width>681</width>
+      <x>6</x>
+      <y>39</y>
+      <width>3986</width>
       <height>32</height>
      </rect>
     </property>
@@ -879,7 +885,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>744</width>
+     <width>767</width>
      <height>21</height>
     </rect>
    </property>
@@ -923,8 +929,8 @@
    <slot>createDB()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>156</x>
-     <y>85</y>
+     <x>193</x>
+     <y>295</y>
     </hint>
     <hint type="destinationlabel">
      <x>135</x>
@@ -939,8 +945,8 @@
    <slot>insertDB()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>356</x>
-     <y>85</y>
+     <x>419</x>
+     <y>295</y>
     </hint>
     <hint type="destinationlabel">
      <x>388</x>
@@ -955,8 +961,8 @@
    <slot>deleteDB()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>516</x>
-     <y>85</y>
+     <x>605</x>
+     <y>295</y>
     </hint>
     <hint type="destinationlabel">
      <x>598</x>
@@ -971,8 +977,8 @@
    <slot>openData()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>446</x>
-     <y>127</y>
+     <x>454</x>
+     <y>335</y>
     </hint>
     <hint type="destinationlabel">
      <x>498</x>
@@ -987,8 +993,8 @@
    <slot>open_fct_fournie_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>492</x>
-     <y>227</y>
+     <x>500</x>
+     <y>435</y>
     </hint>
     <hint type="destinationlabel">
      <x>79</x>
@@ -1003,8 +1009,8 @@
    <slot>open_fct_fournie_2()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>492</x>
-     <y>267</y>
+     <x>500</x>
+     <y>475</y>
     </hint>
     <hint type="destinationlabel">
      <x>116</x>
@@ -1019,8 +1025,8 @@
    <slot>open_fct_comp_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>514</x>
-     <y>351</y>
+     <x>522</x>
+     <y>559</y>
     </hint>
     <hint type="destinationlabel">
      <x>515</x>
@@ -1035,8 +1041,8 @@
    <slot>open_fct_comp_2()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>554</x>
-     <y>514</y>
+     <x>562</x>
+     <y>744</y>
     </hint>
     <hint type="destinationlabel">
      <x>576</x>
@@ -1051,8 +1057,8 @@
    <slot>open_fct_comp_3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>551</x>
-     <y>555</y>
+     <x>559</x>
+     <y>785</y>
     </hint>
     <hint type="destinationlabel">
      <x>551</x>
@@ -1067,8 +1073,8 @@
    <slot>open_fct_comp_4()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>464</x>
-     <y>595</y>
+     <x>472</x>
+     <y>825</y>
     </hint>
     <hint type="destinationlabel">
      <x>521</x>
@@ -1083,12 +1089,44 @@
    <slot>open_fct_comp_5()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>463</x>
-     <y>690</y>
+     <x>328</x>
+     <y>72</y>
     </hint>
     <hint type="destinationlabel">
-     <x>613</x>
-     <y>684</y>
+     <x>687</x>
+     <y>84</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>open_fct_comp_6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>608</x>
+     <y>111</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>740</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_13</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>open_fct_comp_7()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>338</x>
+     <y>186</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>228</x>
+     <y>235</y>
     </hint>
    </hints>
   </connection>
@@ -1107,5 +1145,7 @@
   <slot>open_fct_comp_3()</slot>
   <slot>open_fct_comp_4()</slot>
   <slot>open_fct_comp_5()</slot>
+  <slot>open_fct_comp_6()</slot>
+  <slot>open_fct_comp_7()</slot>
  </slots>
 </ui>

@@ -6,12 +6,12 @@ from PyQt5.QtCore import pyqtSlot
 from PyQt5 import uic
 
 # Classe permettant d'afficher la fonction à compléter 4
-class AppFctComp4(QDialog):
+class AppFctComp7(QDialog):
 
     # Constructeur
     def __init__(self, data:sqlite3.Connection):
         super(QDialog, self).__init__()
-        self.ui = uic.loadUi("gui/fct_comp_4.ui", self)
+        self.ui = uic.loadUi("gui/fct_comp_7.ui", self)
         self.data = data
         self.refreshCatList()
         self.refreshCatList_2()
@@ -59,5 +59,5 @@ class AppFctComp4(QDialog):
             self.ui.comboBox_fct_4_Eq.clear()
         else:
             display.refreshGenericCombo(self.ui.comboBox_fct_4_Eq, result)
-    def ok(self):
+    def refreshBox(self):
         self.refreshCatList_2()

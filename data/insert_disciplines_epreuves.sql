@@ -42,3 +42,6 @@ INSERT INTO LesEpreuves (numEp, nomEp, formeEp, nomDi, categorieEp, nbSportifsEp
 INSERT INTO LesEpreuves (numEp, nomEp, formeEp, nomDi, categorieEp, nbSportifsEp, dateEp) VALUES (40, 'Luge', 'individuelle', 'Sports de glace', 'masculin', NULL, NULL);
 INSERT INTO LesEpreuves (numEp, nomEp, formeEp, nomDi, categorieEp, nbSportifsEp, dateEp) VALUES (41, 'Luge a 2', 'par equipe', 'Sports de glace', 'feminin', 2, NULL);
 INSERT INTO LesEpreuves (numEp, nomEp, formeEp, nomDi, categorieEp, nbSportifsEp, dateEp) VALUES (42, 'Luge a 2', 'par equipe', 'Sports de glace', 'masculin', 2, NULL);
+
+
+
