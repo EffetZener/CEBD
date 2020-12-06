@@ -622,7 +622,7 @@
          </column>
          <column>
           <property name="text">
-           <string>nbEqu</string>
+           <string>numSp</string>
           </property>
          </column>
         </widget>

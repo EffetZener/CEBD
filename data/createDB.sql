@@ -76,6 +76,7 @@ CREATE VIEW LesEquipes AS
     FROM LesEquipiers 
     GROUP BY numEq;
 
+
 CREATE VIEW LesClassements AS
     SELECT R.numEp AS numEp, S1.pays AS P1, S2.pays AS P2, S3.pays AS P3 
     FROM LesResultats R JOIN LesSportifs S1 JOIN LesSportifs S2 JOIN LesSportifs S3 

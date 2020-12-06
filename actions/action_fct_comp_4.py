@@ -10,6 +10,7 @@ class AppFctComp4(QDialog):
 
     # Constructeur
     def __init__(self, data:sqlite3.Connection):
+        
         super(QDialog, self).__init__()
         self.ui = uic.loadUi("gui/fct_comp_4.ui", self)
         self.data = data
@@ -59,3 +60,5 @@ class AppFctComp4(QDialog):
             self.ui.comboBox_fct_4_Eq.clear()
         else:
             display.refreshGenericCombo(self.ui.comboBox_fct_4_Eq, result)
+    def ok(self):
+        self.refreshCatList_2()
